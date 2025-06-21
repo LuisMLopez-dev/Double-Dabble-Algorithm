@@ -29,7 +29,7 @@ architecture Behavioral of BinaryToBCD is
                 end if;
             end loop;
 
-            -- Shift left: Move temp into bcdTemp
+            -- Shift left: Move the MSB of temp into the LSB of bcdTemp
             bcdTemp := bcdTemp(4 * digits - 2 downto 0) & temp(n - 1);
             temp := temp(n - 2 downto 0) & '0';
         end loop;
