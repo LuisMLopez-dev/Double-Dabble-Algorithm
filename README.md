@@ -1,6 +1,8 @@
 # Double Dabble-Algorithm
-This is a VHDL code for converting a binary number to a BCD (binary-coded decimal) number using the Double Dabble Algorithm.
+This is a VHDL program for converting a binary number to a BCD (binary-coded decimal) number using the Double Dabble Algorithm.
 
-This algorithm is a way to convert binary numbers into BCD for display purposes. 
-I created this code to display numbers on a seven-segment display on a Nexys4 DDR FPGA Board.
-This code is effcient, has comments explaining how the conversion works, and most importantly is portable, and can therefore be used in a wide range of projects.
+Features & Design Purpose:
+-Converts binary number of any desired length into the corresponding amount of BCD digits 
+-Works well with Seven Segment Displays
+-Created in Xilinx Vivado for a Nexys4 DDR FPGA
+-Efficient, portable, and well commented
